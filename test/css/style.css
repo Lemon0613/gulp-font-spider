@@ -1,0 +1,17 @@
+/*声明 WebFont*/
+@font-face {
+  font-family: 'fzdbs';
+  src: url('../font/fzdbs.eot');
+  src:
+    url('../font/fzdbs.eot?#font-spider') format('embedded-opentype'),
+    url('../font/fzdbs.woff') format('woff'),
+    url('../font/fzdbs.TTF') format('truetype'),
+    url('../font/fzdbs.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*使用选择器指定字体*/
+h1 {
+    font-family: 'fzdbs';
+}
