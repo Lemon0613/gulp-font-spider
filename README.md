@@ -54,6 +54,7 @@ gulp.task('defualt', ['fontspider']);
 ```
 
 > 特别说明： `@font-face` 中的 `src` 定义的 .ttf 文件必须存在，其余的格式将由工具自动生成
+> 出现 not find module 'css-font-parser' 错误 可将 'css-font-parser' 模块内部 main: 'lib/parser.js' 改为 main: 'src/parser.js'即可
 
 ## API 
 
@@ -172,18 +173,7 @@ gulp.task('defualt', ['fontspider']);
 | `.ttf`  | --   | 3.5     | 4      | 3.1    | 10.1  | 4.3        | 2.2             | 36                 | 
 | `.svg`  | --   | --      | 4      | 3.2    | 9.6   | 3.2        | 3               | 36                 | 
 
-来源：<http://caniuse.com/#feat=fontface>
 
-## 贡献者
-
-*  [@chenmnkken](https://github.com/chenmnkken)
-*  [@aui](https://github.com/aui)
-
-## 相关链接
-
-- [fontmin](https://github.com/ecomfe/fontmin)
-- [Google: 网页字体优化](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=zh-cn)
-- [思源黑体: ttf 版本](https://github.com/akiratw/kaigen-gothic/releases)
 
 =============
 
